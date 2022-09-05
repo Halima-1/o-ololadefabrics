@@ -1,0 +1,10 @@
+.border{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.form-select{
+    padding: 15px;
+}
+.a{
+    text-decoration: none;
+}
