@@ -4,18 +4,27 @@
     padding: 0;
 }
 
+body{
+    background-color: #E2D1F9;
+}
+
 .first-container {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    border: 1px solid grey;
-    background-color: black;
-    color: aliceblue;
+    border: 1px hidden grey;
+    /* background-color: black; */
+    color: black;
     /* margin: 0 100px; */
 }
 
+select{
+    color: black;
+    border: none;
+}
+
 .second-container a{
-    border-right: 1px solid gray;
+    border-right: 1px hidden gray;
     border-top: none;
     border-bottom: none;
     border-left: none;
@@ -25,18 +34,28 @@
     padding-right: 5px;
 }
 
+.navbar{
+    background-color: #317773;
+}
+
 .navbar-toggler{
     background-color: black;
     color: black;
 }
 
 .navbar-brand{
-    color: black;
+    color: aliceblue;
     padding-left: 150px;
 }
 
 .nav-link{
-    color: black;
+    color: aliceblue;
+}
+
+.nav-item a:hover{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
 }
 
 .collapse{
@@ -44,20 +63,17 @@
     padding-left: 300px;
 }
 
-
-.bg-image{
-    background-image: url('../images/backgrounds/woman-2563491_1920.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 500px;
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
 }
 
 .bg-content{
     border: 1px hidden black;
     width: 500px;
     height: 450px;
-    color: white;
+    color: black;
     padding: 50px 0 0px 50px;
     font-size: 25px;
     font-weight: bold;
@@ -65,9 +81,9 @@
 }
 
 #shop{
-    border: 2px solid rgb(3, 3, 78);
+    border: 2px solid #317773;
     /* width: 100px; */
-    background-color: rgb(3, 3, 78);
+    background-color: #317773;
     color: aliceblue;
     /* margin: 40px 0 0 0px; */
     padding: 10px 10px 10px 10px;
@@ -77,19 +93,20 @@
 img{
     width: 300px;
     height: 250px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .images{
-    padding: 20px 0 20px 100px;
+    padding: 20px 0 0px 100px;
 }
 
 .img-content{
-    border: 2px solid rgb(3, 3, 78);
-    width: 100px;
-    background-color: rgb(3, 3, 78);
+    border: 2px solid #317773;
+    width: 300px;
+    height: 100px;
+    background-color: #317773;
     color: aliceblue;
-    margin-left: 80px;
+    margin-left: 0px;
     padding: 10px 20px 10px 25px;
 }
 
@@ -103,112 +120,64 @@ h3{
     margin: 20px 5px 10px 35px; 
 }
 
-.float-footer{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    background: gray;
-    clear: both;
-    height: 300px;
+#menu{
+
 }
 
-
-.float-footer-content{
-    border: 5px hidden black;
-    padding: 20px;
-    width:20% ;
-    margin-left: auto;
-    margin-right: auto;
+.logos a{
+    font-size: 20px;
+    color: black;
+    margin: 20px;
 }
 
-.float-footer-content #menu{
+.fa-solid{
+    color: red;
+}
+
+.fa-brands{
+    color: blue;
+}
+
+.fa-square-twitter{
+    color: blue;
+}
+
+.fa-square-instagram{
+    color: rgb(255, 81, 0);
+}
+
+.text-white #menu{
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     border: 1px hidden black;
-    width: 200px;
+    /* width: 200px; */
     margin-top: 30px;
-}
-
-.float-footer-content #knowledge{
+  }
+  
+.text-white #knowledge{
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     border: 1px hidden black;
-    width: 200px;
+    /* width: 200px; */
     margin-top: 30px;
-}
-
-.float-footer-content #links{
+  }
+  
+.text-white #links{
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     border: 1px hidden black;
-    width: 200px;
-    margin-top: 30px;
+    /* width: 200px; */
+    padding-top: 30px;
 }
 
-.float-footer-content #contact{
-    font-weight: bold;
-    font-size: 20px;
-    border: 1px hidden black;
-    width: 200px;
-    margin-top: 5px;
-}
-
-.float-footer-content ul{
-    border: 2px solid black;
-    margin-bottom: 20px;
-    width: 150px;
-    height: 30px;
-    background-color: gray;
-    
-}
-
-.float-footer-content  ul a{
+.text-white a{
     text-decoration: none;
-    border-right: 2px solid black;
-    border-top: none;
-    border-bottom: none;
-    border-left: none; 
-    padding: 10px 10px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0;
+    font-size: 17px;
 }
 
-.float-footer-content p{
-    color: black;
-  }
-  
-  #menu{
-    color: black;
-  }
-
-  #links{
-    color: black;
-  }
-
-  #knowledge{
-    color: black;
-  }
-
-  #contact{
-    color: black;
-  }
-  
-
-.float-footer-content a:link{
-    color:  black;
-}
-
-.float-footer-content a:visited{
-    color:  black;
-}
-
-.float-footer-content a:hover{
-    color:  black;
-}
-
-.float-footer-content a:active{
-    color:  black;
-}
-.float-footer-content a{
-    text-decoration: none;
-}
-  
