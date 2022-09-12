@@ -8,11 +8,6 @@ body{
     background-color: #E2D1F9;
 }
 
-img{
-    height: 250px;
-    width: 100%;
-    border-radius: 10px;
-}
 li{
     list-style: none;
 }
@@ -51,7 +46,6 @@ li{
 
 .navbar-brand{
     color: aliceblue;
-    margin: 0;
 }
 
 .nav-link{
@@ -70,9 +64,12 @@ li{
     background-color: #E2D1F9;
 
 }
-
-
-
+.text p{
+    color: black;
+}
+strong{
+    color: red;
+}
 .text-white #menu{
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;

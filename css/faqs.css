@@ -7,22 +7,16 @@
 body{
     background-color: #E2D1F9;
 }
-
-img{
-    height: 250px;
-    width: 100%;
-    border-radius: 10px;
-}
 li{
     list-style: none;
 }
 .log{
     margin:  10px 0;
 }
-.item{
-    display: flex;
-    justify-content: center;
+.faq li{}
+.itt: center;
 }
+
 .item2{
     display: column;
     justify-content: flex-end;
@@ -70,8 +64,6 @@ li{
     background-color: #E2D1F9;
 
 }
-
-
 
 .text-white #menu{
     font-weight: bold;
