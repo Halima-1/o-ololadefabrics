@@ -8,45 +8,45 @@ body{
     background-color: #E2D1F9;
 }
 
-.first-container {
+li{
+    list-style: none;
+}
+.log{
+    margin:  10px 0;
+}
+.item{
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-    border: 1px hidden grey;
-    /* background-color: black; */
-    color: black;
-    /* margin: 0 100px; */
+    justify-content: center;
 }
-
-select{
-    color: black;
-    border: none;
+.item2{
+    display: column;
+    justify-content: flex-end;
+    margin-right: 10px;
 }
-
-.second-container a{
-    border-right: 1px hidden gray;
-    border-top: none;
-    border-bottom: none;
-    border-left: none;
-    text-decoration: none;
-    color: aliceblue;
-    margin: 0 5px;
-    padding-right: 5px;
+.flex-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+.flex-1{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
 
+}
 .navbar{
     background-color: #317773;
-    margin-bottom: 20px;
+    padding: 5px;
 }
 
 .navbar-toggler{
-    background-color: black;
+    background-color: #317773;
     color: black;
 }
 
 .navbar-brand{
     color: aliceblue;
-    padding-left: 150px;
+    margin: 0;
 }
 
 .nav-link{
@@ -56,29 +56,14 @@ select{
 .nav-item a:hover{
     background-color: black;
     color: aliceblue;
-    border-radius: 20px;
+    border-radius: 10px;
 }
-
 .collapse{
     height: 80px; 
-    padding-left: 300px;
 }
-
-/*
-
-.mb-3{
-    width: 290px;
-    margin: 20px 0 10px 0px;
+.icon :hover{
+    background-color: #E2D1F9;
 }
-
-.mt-3{
-    background-color: white;
-    width: 24%;
-    height: 350px;
-    margin: 20px 0 10px 500px;
-    margin: auto;
-    padding: 1px 10px 10px 10px;
-}*/
 
 
 .message{
@@ -127,26 +112,6 @@ select{
 }
 
 .message{
-    margin-left: 130px;
-}
-
-.form-check{
-    margin-left: 113px;
-    margin-bottom: 0px;
-    padding-left: 50px;
-    background-color: white;
-    color: #317773;
-    width: 83.5%;
-    height: 50px;
-}
-
-.bttn{
-    margin-left: 113px;
-    padding-left: 10px;
-    background-color: white;
-    color: #317773;
-    width: 83.5%;
-    height: 50px;
 }
 
 
