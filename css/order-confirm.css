@@ -133,3 +133,43 @@ img{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.footer{
+    margin-right: 0;
+}
+
+.text-white #menu{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 1px hidden black;
+    /* width: 200px; */
+    margin-top: 30px;
+  }
+  
+.text-white #knowledge{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 1px hidden black;
+    /* width: 200px; */
+    margin-top: 30px;
+  }
+  
+.text-white #links{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 1px hidden black;
+    /* width: 200px; */
+    padding-top: 30px;
+}
+
+.text-white a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0;
+    font-size: 17px;
+}
+

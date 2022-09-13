@@ -64,10 +64,45 @@ select{
     padding-left: 300px;
 }
 
+/*
+
+.mb-3{
+    width: 290px;
+    margin: 20px 0 10px 0px;
+}
+
+.mt-3{
+    background-color: white;
+    width: 24%;
+    height: 350px;
+    margin: 20px 0 10px 500px;
+    margin: auto;
+    padding: 1px 10px 10px 10px;
+}*/
+
+
+.message{
+    text-align: center;
+}
+
+.btn{
+    background-color: #317773;
+    border: none;
+}
+
+#mySwitch{
+    background-color: #317773;
+    border: none;
+} 
+
+.contact{
+    background-color: white;
+}
+
 .add{
     width: 24%;
     height: 100%;
-    /* margin: 20px 0 10px 500px; */
+    margin: 20px 0 10px 500px;
     margin: auto;
 }
 
@@ -83,29 +118,35 @@ select{
     color: rgb(197, 11, 11);
 }
 
-.mb-3{
-    width: 290px;
-    margin: 20px 0 10px 0px;
+.second-row{
+    margin-top: 40px;
 }
 
-.mt-3{
+.col{
+    margin-bottom: 40px;
+}
+
+.message{
+    margin-left: 130px;
+}
+
+.form-check{
+    margin-left: 113px;
+    margin-bottom: 0px;
+    padding-left: 50px;
     background-color: white;
-    width: 24%;
-    height: 350px;
-    /* margin: 20px 0 10px 500px; */
-    margin: auto;
-    padding: 1px 10px 10px 10px;
+    color: #317773;
+    width: 83.5%;
+    height: 50px;
+}
+
+.bttn{
+    margin-left: 113px;
+    padding-left: 10px;
+    background-color: white;
+    color: #317773;
+    width: 83.5%;
+    height: 50px;
 }
 
 
-.btn{
-    width: 100%;
-    background-color: #317773;
-    border: none;
-    margin-top: 20px;
-}
-
-#mySwitch{
-    background-color: #317773;
-    border: none;
-}
