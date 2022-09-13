@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E2D1F9;
+}
+
+.first-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px hidden grey;
+    /* background-color: black; */
+    color: black;
+    /* margin: 0 100px; */
+}
+
+select{
+    color: black;
+    border: none;
+}
+
+.second-container a{
+    border-right: 1px hidden gray;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 5px;
+    padding-right: 5px;
+}
+
+.navbar{
+    background-color: #317773;
+    margin-bottom: 20px;
+}
+
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    padding-left: 150px;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.nav-item a:hover{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.collapse{
+    height: 80px; 
+    padding-left: 300px;
+}
+
+/* .add{
+    width: 26%;
+    height: 35px;
+    padding: 5px 5px 5px 20px;
+    margin: auto;
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+.fa-circle-check{
+    color: #e2d1f9c7;
+}
+
+.location{
+    width: 26%;
+    height: 70px;
+    padding: 5px 5px 5px 20px;
+    margin: auto;
+}
+
+.fa-location-dot{
+    color: red;
+}
+
+.fa-credit-card{
+    color: rgb(2, 61, 2);
+}
+
+h6 a{
+    text-decoration: none;
+    color: black;
+} */
+
+.row{
+    padding-right: 20px;
+}
+
+.row b{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.first-row{
+    background-color: aliceblue;
+}
+
+p a{
+    text-decoration: none;
+    color: blue;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.second-row{
+    background-color: aliceblue;
+    height: 500px;
+}
+
+.btn{
+    width: 100%;
+    background-color: #317773;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
