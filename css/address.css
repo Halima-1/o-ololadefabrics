@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E2D1F9;
+}
+
+.first-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px hidden grey;
+    /* background-color: black; */
+    color: black;
+    /* margin: 0 100px; */
+}
+
+select{
+    color: black;
+    border: none;
+}
+
+.second-container a{
+    border-right: 1px hidden gray;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 5px;
+    padding-right: 5px;
+}
+
+.navbar{
+    background-color: #317773;
+    margin-bottom: 20px;
+}
+
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    padding-left: 150px;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.nav-item a:hover{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.collapse{
+    height: 80px; 
+    padding-left: 300px;
+}
+
+/* .add{
+    width: 26%;
+    height: 35px;
+    padding: 5px 5px 5px 20px;
+    margin: auto;
+}
+
+.fa-location-dot{
+    color: red;
+}
+
+.mb-3{
+    width: 290px;
+    margin: 20px 10px 10px 0px;
+}
+
+.contact{
+    background-color: white;
+    width: 26%;
+    height: 150px;
+    margin: 20px 0 10px 500px;
+    margin: auto;
+    padding: 1px 1px 10px 15px;
+    border-radius: 10px;
+}
+
+.row{
+    width: 300px;
+    margin: 20px 0 10px 0px;
+}
+
+.address{
+    background-color: white;
+    width: 26%;
+    height: 390px;
+    margin: 20px 0 10px 500px;
+    margin: auto;
+    padding: 1px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 100%;
+    background-color: #317773;
+    border: none;
+    margin-top: 20px;
+}
+
+#mySwitch{
+    background-color: #317773;
+    border: none;
+} */
+
+.second-row{
+    margin-top: 25px;
+}
+
+.col{
+    margin-bottom: 40px;
+}
+
+.message{
+    margin-left: 130px;
+}
+
+.form-check{
+    margin-left: 130px;
+}
+
+.bttn{
+    margin-left: 130px;
+}
