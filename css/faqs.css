@@ -13,8 +13,9 @@ li{
 .log{
     margin:  10px 0;
 }
-.faq li{}
-.itt: center;
+.item{
+    display: flex;
+    justify-content: center;
 }
 
 .item2{
