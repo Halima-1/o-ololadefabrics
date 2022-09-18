@@ -58,9 +58,11 @@ li{
     color: aliceblue;
     border-radius: 10px;
 }
+
 .collapse{
     height: 80px; 
 }
+
 .icon :hover{
     background-color: #E2D1F9;
 }
