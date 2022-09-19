@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #E2D1F9;
+    background-color: ;
 }
 
 .col{
@@ -54,13 +54,13 @@ li{
 
 }
 .navbar{
-    background-color: #317773;
+    background-color: rgb(44, 1, 44);
     padding: 5px;
 }
 
 .navbar-toggler{
-    background-color: #317773;
-    color: black;
+    background-color: rgb(44, 1, 44)k;
+    color: aliceblue;
 }
 
 .navbar-brand{
@@ -87,6 +87,10 @@ li{
 .icon :hover{
     background-color: #E2D1F9;
 
+}
+
+.form{
+    background-color: aliceblue;
 }
 
 .text-white #menu{

@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/address.css">
+    <link rel="stylesheet" href="css/order-confirm.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <title>Document</title>
+    <title>Shopping-cart</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-sm col-sm-12 col-sm-12 col-xl-12 w-100 navbar-dark sticky-top">
@@ -62,71 +62,99 @@
 </div>
 </nav>
 
-      <div class="message"><h5>Add New Address</h5></div>
+<h2 class="h2 mx-auto d-block text-center m-1">Shopping Cart</h2>
       <div class="container mt-3 contact">
         <div class="row">
-          <div class="col-sm-6 p-6">
-            <form action="/action_page.php">
-              <div class="mb-3" >
-                <label for="email">Personal Information</label>
-                <input type="text" class="form-control" id="" placeholder="Contact Name" name="" required>
-              </div>
-            </form>
-         
-            <form action="/action_page.php" >
-              <div class="mb-3" >
-                <label for="email">Shipping Address</label>
-                <input type="text" class="form-control" id="" placeholder="Street address P.O. box, etc" name="" required>
-              </div>
-              <div class="mb-3">
+          <div class="col-sm-8 p-6 first-row">
+              <img src="images/adire/Screenshot_20220903-133536_1.png" alt="">
+              <br>
+              <p>High grade quality kampala</p>
+              <p>#12,000 for 5yards</p>
+              <hr>
+              <img src="images/ankara/Screenshot_20220903-134921_1.png" alt="">
+              <br>
+              <p>High grade quality ankara</p>
+              <p>#10,000 for 5yards</p> 
+              <hr>
+              <img src="images/lace/Screenshot_20220903-134324_1.png" alt="">
+              <br>
+              <p>High grade quality lace</p>
+              <p>#15,000 for 5yards</p>
               
-                <input type="text" class="form-control" id="text" placeholder="City" name="text">
-              </div>
-             
-             
-            </form>
-            
-             
             </div>
   
          
   
-          <div class="col-sm-6 p-6 second-row">
+          <div class="col-sm-4 p-3 second-row">
+            <h5>Summary</h5>
             <div class="row">
-              <div class="col">
-                <select class="form-select" id="sel1" name="sellist1">
-                  <option>+234</option>
-                  <option>+233</option>
-                  <option>+1</option>
-                  <option>+24</option>
-                </select>
-              </div>
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Phone Number" name="pswd">
-              </div>
+                <div class="col p-3 image">
+                    <p>Total item costs</p>
+                </div>
+                <div class="col p-3 image">
+                    <p>US $14.86</p>
+                </div>
             </div>
-            <div class="mb-3">
-                
-              <input type="text" class="form-control" id="text" placeholder="Province" name="text">
-            </div>
-            <div class="mb-3">
-    
-              <input type="text" class="form-control" id="text" placeholder="postal code/zip code" name="text">
+            <div class="row">
+                <div class="col p-3 image">
+                    <p>Total shipping costs</p>
+                </div>
+                <div class="col p-3 image">
+                    <p>US $14.86</p>
+                </div>
+                </div>
+                <hr>
+                <div class="row">
+                <div class="col p-3 image">
+                    <p>Total</p>
+                </div>
+                <div class="col p-3 image">
+                    <p>US $14.86</p>
+                </div>
+                </div>
+                <a href="order-confirm.html">
+                <button type="submit" class="btn btn-primary">Checkout</button>
+                </a>
+                <h5>Pearl Fabrics</h5>
+                <p>Pearl Fabrics keeps your information and payment safe</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" >
-        <label class="form-check-label" for="mySwitch">Set as default shipping address</label>
+      <div class="container-fluid mt-3 footer">
+        <div class="row ">
+          <div class="col-sm-3 p-3 bg-dark text-white">
+            <div id="menu">O-Ololade Fabrics</div><br>
+            <p>
+              Comfortable and Stylish Italian Fabrics clothes direct from Italy at wholesales price.</p>
+          </div>
+
+          <div class="col-sm-3 p-3 bg-dark text-white">
+            <div id="knowledge">Our Services</div><br>
+            <a href="">E-commerce</a><br>
+            <a href="">Shopping</a><br>
+            <a href="">Fashion</a><br>
+          </div>
+
+          <div class="col-sm-3 p-3 bg-dark text-white">
+            <div id="links">Help</div><br>
+            <a href="">FAQs</a><br>
+            <a href="">Privacy Policy</a><br>
+            <a href="">Terms and Conditions</a><br>
+          </div>
+
+          <div class="col-sm-3 p-3 bg-dark text-white">
+            <div id="links">Company</div><br>
+            <a href="">About Us</a><br>
+            <a href="">Locations</a><br>
+            <a href="">Contact Us</a><br>
+          </div>
+
+        </div>
       </div>
-      <div class="bttn">
-        <a href="card-info.html">
-      <button type="submit" class="btn btn-primary">Confirm</button>
-      </a>
-      <button type="submit" class="btn btn-primary">Cancel</button>
-      </div>
+
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    </body>
 </html>

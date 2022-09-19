@@ -35,12 +35,12 @@ li{
 
 }
 .navbar{
-    background-color: #317773;
+    background-color: rgb(44, 1, 44);;
     padding: 5px;
 }
 
 .navbar-toggler{
-    background-color: #317773;
+    background-color: rgb(44, 1, 44);;
     color: black;
 }
 
@@ -129,7 +129,7 @@ img{
 
 .btn{
     width: 100%;
-    background-color: #317773;
+    background-color: rgb(44, 1, 44);;
     border: none;
     margin-top: 20px;
     margin-bottom: 20px;
