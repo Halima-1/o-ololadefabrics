@@ -65,58 +65,14 @@ li{
     background-color: #E2D1F9;
 }
 
-/* .add{
-    width: 26%;
-    height: 35px;
-    padding: 5px 5px 5px 20px;
-    margin: auto;
-}
-
-.fa-location-dot{
-    color: red;
-}
-
-.mb-3{
-    width: 290px;
-    margin: 20px 10px 10px 0px;
-}
-
-.contact{
+.border{
     background-color: white;
-    width: 26%;
-    height: 150px;
-    margin: 20px 0 10px 500px;
-    margin: auto;
-    padding: 1px 1px 10px 15px;
-    border-radius: 10px;
+    color: black;
+    border-style: outset;
+    height: 600px;
+    padding: 20px;
+    box-shadow: 2px 1px 2px 2px;
 }
-
-.row{
-    width: 300px;
-    margin: 20px 0 10px 0px;
-}
-
-.address{
-    background-color: white;
-    width: 26%;
-    height: 390px;
-    margin: 20px 0 10px 500px;
-    margin: auto;
-    padding: 1px 10px 10px 10px;
-    border-radius: 10px;
-}
-
-.btn{
-    width: 100%;
-    background-color: #317773;
-    border: none;
-    margin-top: 20px;
-}
-
-#mySwitch{
-    background-color: #317773;
-    border: none;
-} */
 
 .second-row{
     margin-top: 25px;
