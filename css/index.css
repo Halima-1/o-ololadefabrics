@@ -65,7 +65,9 @@ li{
     background-color: #E2D1F9;
 }
 
-
+.mx-auto{
+    max-width: 90%;
+}
 
 .image{
     height: 400px;
@@ -110,11 +112,13 @@ img{
 }
 
 .img-content{
-    border: 2px hidden rgb(168, 4, 4);
+    border: 1px hidden aliceblue;
+    border-style: outset;
+    box-shadow: 2px 1px 2px 2px;
     width: 300px;
     height: 100px;
-    background-color: black;
-    color: aliceblue;
+    background-color: aliceblue;
+    color: black;
     margin-left: 0px;
     padding: 10px 20px 10px 25px;
 }
